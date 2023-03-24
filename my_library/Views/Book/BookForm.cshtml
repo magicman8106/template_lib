@@ -1,0 +1,12 @@
+﻿@using my_library.ViewModels
+@model CreateBookViewModel
+@{
+	ViewData["Title"] = "BookForm";
+}
+
+<form action="CreatePage" method="post">
+	
+	<input asp-for="title"/>
+	<input type="submit" />
+
+</form>

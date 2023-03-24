@@ -1,0 +1,9 @@
+﻿@model my_library.ViewModels.BookViewModel;
+@{
+	ViewBag.Title = "BookIndex";
+}
+@foreach (var item in Model.allBooks)
+{
+	<p>@item.title</p>
+	<br></br>
+}
